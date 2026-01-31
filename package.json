@@ -1,0 +1,20 @@
+{
+  "name": "singlish-translator-tests",
+  "version": "1.0.0",
+  "description": "Automated testing for Singlish to Sinhala translator using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:positive": "npx playwright test tests/positive-functional.spec.js",
+    "test:negative": "npx playwright test tests/negative-functional.spec.js",
+    "test:ui": "npx playwright test tests/ui-test.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "singlish", "sinhala", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
