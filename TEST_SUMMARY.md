@@ -1,7 +1,7 @@
 # Test Automation Summary
 
 ## Student Information
-- **Name:** DHARMASIRI. A. W . L . I
+- **Name:** DHARMASIRI. A. W .L . I
 - **Registration Number:** IT23829442
 - **Website Under Test:** https://www.swifttranslator.com/
 
